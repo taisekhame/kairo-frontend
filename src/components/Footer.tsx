@@ -1,5 +1,5 @@
 import { Github, Twitter, MessageCircle, ExternalLink } from 'lucide-react';
-import logo from '../assets/kairo whitr bg.png';
+import logo from '../assets/kairo no bg.png';
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
