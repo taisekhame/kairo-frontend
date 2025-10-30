@@ -1,4 +1,5 @@
 import { Github, Twitter, MessageCircle, ExternalLink } from 'lucide-react';
+import logo from '../assets/kairo whitr bg.png';
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -13,7 +14,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4">KAIRO</h3>
+            <div className="flex items-center gap-2 mb-4">
+              <img src={logo} alt="Kairo Logo" className="w-8 h-8 object-contain" />
+              <h3 className="text-2xl font-bold text-white">Kairo</h3>
+            </div>
             <p className="text-[#A7B1C2] mb-4 max-w-md">
               The OpenZeppelin of Rust. Building secure, reusable smart contract templates
               for Arbitrum Stylus developers.

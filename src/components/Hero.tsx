@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
             <button
               onClick={scrollToAbout}
-              className="group px-8 py-4 bg-[#28A0F0] text-white font-semibold rounded-lg glow-on-hover flex items-center gap-2"
+              className="glow-button group px-8 py-3 bg-[#28A0F0] text-white font-semibold rounded-full hover:shadow-lg hover:shadow-[#28A0F0]/50 transition-all flex items-center gap-2"
             >
               Explore the Library
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
@@ -51,7 +51,7 @@ const Hero = () => {
               href="https://github.com/kairo-dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-4 glassmorphic text-white font-semibold rounded-lg glow-on-hover"
+              className="px-8 py-3 border-2 border-[#28A0F0]/50 text-white font-semibold rounded-full hover:bg-[#28A0F0]/10 hover:border-[#28A0F0] transition-all"
             >
               View on GitHub
             </a>

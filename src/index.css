@@ -45,6 +45,13 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
+  .glass-effect {
+    background: rgba(33, 49, 71, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+
   .text-gradient {
     background: linear-gradient(135deg, #28A0F0, #96BEDC);
     -webkit-background-clip: text;
@@ -58,6 +65,15 @@
 
   .glow-on-hover:hover {
     box-shadow: 0 0 20px rgba(40, 160, 240, 0.6);
+    transform: translateY(-2px);
+  }
+
+  .glow-button {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+
+  .glow-button:hover {
     transform: translateY(-2px);
   }
 
