@@ -79,7 +79,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://docs.kairo.dev"
+                  href="https://kairo-docs.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#A7B1C2] hover:text-[#28A0F0] transition-colors flex items-center gap-1"
