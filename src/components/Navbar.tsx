@@ -80,7 +80,7 @@ const Navbar = () => {
             Team
           </button>
           <a
-            href="https://docs.kairo.dev"
+            href="https://kairo-docs.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full px-6 py-2 bg-[#28A0F0] text-white rounded-full font-semibold hover:shadow-lg hover:shadow-[#28A0F0]/50 transition-all text-center"
