@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
 
         <a
-          href="https://docs.kairo.dev"
+          href="https://kairo-docs.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="glow-button hidden md:block px-6 py-2 bg-[#28A0F0] text-white rounded-full font-semibold hover:shadow-lg hover:shadow-[#28A0F0]/50 transition-all"
