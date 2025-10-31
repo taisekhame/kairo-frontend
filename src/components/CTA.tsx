@@ -65,7 +65,7 @@ const CTA = () => {
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="https://github.com/kairo-dev"
+                href="https://github.com/Team-Oracle/Kairo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white/10 text-white font-semibold rounded-lg glow-on-hover"

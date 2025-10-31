@@ -13,40 +13,40 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: 'Alex Rivera',
-    role: 'Lead Smart Contract Engineer',
-    description: 'Core contributor to ERC standards and security auditing. 5+ years in Rust and blockchain development.',
+    name: 'Emmanuel',
+    role: 'Technical Lead, Smart Contract Dev',
+    description: `Full-stack developer who's built across web, mobile, and blockchain—now bringing that expertise to Arbitrum Stylus. As Technical Lead, he's implementing battle-tested smart contracts in Rust, ensuring every line of code is secure, optimized, and production-ready for developers worldwide.`,
     image: '/src/assets/team/1.jpg',
-    github: '#',
-    twitter: '#',
+    github: 'https://github.com/BossEmma',
+    twitter: 'https://x.com/BossEmmanuel03 ',
     linkedin: '#',
   },
   {
-    name: 'Sarah Chen',
-    role: 'Protocol Architect',
-    description: 'Former Arbitrum contributor specializing in Stylus optimization and gas efficiency.',
+    name: 'Helen',
+    role: 'Product Manager, Creative Strategist',
+    description: `Product Manager and Creative Strategist who had her blockchain "aha moment" understanding decentralization. Now leading Kairo's documentation, creative strategy, and security mindset—making Rust contracts understandable while thinking like an attacker`,
     image: '/src/assets/team/2.jpg',
-    github: '#',
-    twitter: '#',
-    linkedin: '#',
+    github: 'https://github.com/helenijay',
+    twitter: 'https://x.com/anideamaybe',
+    linkedin: 'http://linkedin.com/in/ijeomaokezie',
   },
   {
-    name: 'Marcus Johnson',
-    role: 'Security Researcher',
-    description: 'White-hat security expert with extensive experience in smart contract auditing and vulnerability assessment.',
+    name: 'MTB',
+    role: 'Full Stack Developer, Project Manager',
+    description: `Full-Stack Developer and Project Manager wearing multiple hats at Kairo. Built the entire frontend experience, wrote the documentation, and manages developer communications. If it's not smart contracts, MTB created it.`,
     image: '/src/assets/team/3.jpg',
-    github: '#',
-    twitter: '#',
-    linkedin: '#',
+    github: 'https://github.com/taisekhame',
+    twitter: 'https://x.com/mrtbaby_1',
+    linkedin: 'https://www.linkedin.com/in/taiye-aisekhame/',
   },
   {
-    name: 'Emma Nakamura',
-    role: 'Developer Relations',
-    description: 'Building bridges between developers and the Kairo ecosystem. Open source advocate and community builder.',
+    name: 'Koliinx',
+    role: 'Graphics Designer',
+    description: `Graphic Designer crafting Kairo's complete visual experience. From brand identity and social graphics to landing page design and visual docs—making Rust contracts feel approachable through thoughtful design.`,
     image: '/src/assets/team/4.jpg',
-    github: '#',
-    twitter: '#',
-    linkedin: '#',
+    github: 'https://github.com/koliinxidodo',
+    twitter: 'https://x.com/koliinx/',
+    linkedin: 'https://www.linkedin.com/in/collins-idodo-883473365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   },
 ];
 
@@ -122,6 +122,7 @@ const Team = () => {
                     href={member.github}
                     className="text-[#A7B1C2] hover:text-[#28A0F0] transition-colors"
                     aria-label="GitHub"
+                    target='_blank'
                   >
                     <Github size={20} />
                   </a>
@@ -131,6 +132,7 @@ const Team = () => {
                     href={member.twitter}
                     className="text-[#A7B1C2] hover:text-[#28A0F0] transition-colors"
                     aria-label="Twitter"
+                    target='_blank'
                   >
                     <Twitter size={20} />
                   </a>
@@ -140,6 +142,7 @@ const Team = () => {
                     href={member.linkedin}
                     className="text-[#A7B1C2] hover:text-[#28A0F0] transition-colors"
                     aria-label="LinkedIn"
+                    target='_blank'
                   >
                     <Linkedin size={20} />
                   </a>

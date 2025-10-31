@@ -1,4 +1,4 @@
-import { Github, Twitter, MessageCircle, ExternalLink } from 'lucide-react';
+import { Github, Twitter, ExternalLink } from 'lucide-react';
 import logo from '../assets/kairo no bg.png';
 
 const Footer = () => {
@@ -24,7 +24,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/kairo-dev"
+                href="https://github.com/Team-Oracle/Kairo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#A7B1C2] hover:text-[#28A0F0] transition-colors"
@@ -33,22 +33,13 @@ const Footer = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://twitter.com/kairodev"
+                href="https://x.com/arb_kairo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#A7B1C2] hover:text-[#28A0F0] transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter size={24} />
-              </a>
-              <a
-                href="https://discord.gg/kairo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#A7B1C2] hover:text-[#28A0F0] transition-colors"
-                aria-label="Discord"
-              >
-                <MessageCircle size={24} />
               </a>
             </div>
           </div>
@@ -99,7 +90,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/kairo-dev/kairo"
+                  href="https://github.com/Team-Oracle/Kairo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#A7B1C2] hover:text-[#28A0F0] transition-colors flex items-center gap-1"

@@ -9,6 +9,7 @@
 
   body {
     @apply font-sans antialiased;
+    color: whitesmoke;
   }
 }
 
@@ -17,11 +18,11 @@
     background: linear-gradient(
       135deg,
       #213147 0%,
-      #1a5a8a 20%,
-      #28A0F0 40%,
-      #1a5a8a 60%,
-      #213147 80%,
-      #213147 100%
+      #500505 20%,
+      #0e008a 40%,
+      #500505 60%,
+      #12003d 80%,
+      #df2929 100%
     );
     background-size: 400% 400%;
     animation: gradientFlow 15s ease infinite;

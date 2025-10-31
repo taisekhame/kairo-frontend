@@ -48,7 +48,7 @@ const Hero = () => {
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </button>
             <a
-              href="https://github.com/kairo-dev"
+              href="https://github.com/Team-Oracle/Kairo"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-[#28A0F0]/50 text-white font-semibold rounded-full hover:bg-[#28A0F0]/10 hover:border-[#28A0F0] transition-all"
