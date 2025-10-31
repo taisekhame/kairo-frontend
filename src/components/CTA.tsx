@@ -56,7 +56,7 @@ const CTA = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <a
-                href="https://docs.kairo.dev"
+                href="https://kairo-docs.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-8 py-4 bg-[#28A0F0] text-white font-semibold rounded-lg glow-on-hover flex items-center gap-2"
